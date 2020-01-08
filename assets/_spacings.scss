@@ -1,0 +1,46 @@
+.rm-mt {
+  margin-top: 0 !important;
+}
+.rm-mb {
+  margin-bottom: 0 !important;
+}
+.rm-ml {
+  margin-left: 0 !important;
+}
+.rm-mr {
+  margin-right: 0 !important;
+}
+.rm-my {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.rm-mx {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+@mixin margin($displace) {
+  .mt-#{$displace} {
+    margin-top: #{$displace}rem;
+  }
+  .mb-#{$displace} {
+    margin-bottom: #{$displace}rem;
+  }
+  .ml-#{$displace} {
+    margin-left: #{$displace}rem;
+  }
+  .mr-#{$displace} {
+    margin-right: #{$displace}rem;
+  }
+  .mx-#{$displace} {
+    margin-top: #{$displace}rem;
+    margin-bottom: #{$displace}rem;
+  }
+  .my-#{$displace} {
+    margin-left: #{$displace}rem;
+    margin-right: #{$displace}rem;
+  }
+}
+// 1 rem = 16px;
+@include margin(0);
+@include margin(0);
