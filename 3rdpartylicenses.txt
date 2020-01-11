@@ -118,6 +118,10 @@ THE SOFTWARE.
 
 @angular/material/dialog
 
+@angular/material/progress-spinner
+
+@angular/material/radio
+
 @angular/material/snack-bar
 
 @angular/material/table
