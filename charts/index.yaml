@@ -3,7 +3,7 @@ entries:
   api-gateway:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.814240209Z"
+    created: "2023-03-31T13:33:44.697516436Z"
     description: A Helm chart for Kubernetes
     digest: 354a53074e5aa06fbcf2b28ee0984b921d587d344ed8258cc18be017a0c16bf2
     name: api-gateway
@@ -13,7 +13,7 @@ entries:
     version: 0.1.0+312140c
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.815371116Z"
+    created: "2023-03-31T13:33:44.698654566Z"
     description: A Helm chart for Kubernetes
     digest: 5a1d328adee3dc1e1a3c3b7616e95fdf070c24f9c19838ebb27c5b1d9d16851e
     name: api-gateway
@@ -23,7 +23,7 @@ entries:
     version: 0.1.0+4862555
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.81607662Z"
+    created: "2023-03-31T13:33:44.699551389Z"
     description: A Helm chart for Kubernetes
     digest: 8a500476bd7f4db2121b3dd6ad18eb3b79c277808177b18a645ab0c86191abca
     name: api-gateway
@@ -33,7 +33,7 @@ entries:
     version: 0.1.0+8801bd8
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.816832624Z"
+    created: "2023-03-31T13:33:44.700377411Z"
     description: A Helm chart for Kubernetes
     digest: 57764d27ec4861dd0ed43e255eb398a9a63b3928d8d2c8e9e1a2fbab50ea44a3
     name: api-gateway
@@ -43,7 +43,17 @@ entries:
     version: 0.1.0+a9e28e6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.817626228Z"
+    created: "2023-03-31T13:33:44.70110023Z"
+    description: A Helm chart for Kubernetes
+    digest: 09105ff17804ee423174b824e815c7a22cf61de531d8d14f244c9f22d669b37c
+    name: api-gateway
+    type: application
+    urls:
+    - spinnaker/api-gateway-0.1.0+d45a289.tgz
+    version: 0.1.0+d45a289
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-31T13:33:44.701909951Z"
     description: A Helm chart for Kubernetes
     digest: 53815586f2a833c871aca08010292cab636eb706ec84b3d53790d387a256cae5
     name: api-gateway
@@ -53,7 +63,7 @@ entries:
     version: 0.1.0+ea86865
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.818288532Z"
+    created: "2023-03-31T13:33:44.70336249Z"
     description: A Helm chart for Kubernetes
     digest: f86a551e3cbace9a0ffe76c58879bb04be57009be235dd17d7b6533170a498db
     name: api-gateway
@@ -64,7 +74,7 @@ entries:
   authentication-service:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.827491184Z"
+    created: "2023-03-31T13:33:44.715941021Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -78,7 +88,7 @@ entries:
     version: 0.1.0+312140c
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.83572083Z"
+    created: "2023-03-31T13:33:44.72386283Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -92,7 +102,7 @@ entries:
     version: 0.1.0+4862555
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.845994888Z"
+    created: "2023-03-31T13:33:44.732562059Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -106,7 +116,7 @@ entries:
     version: 0.1.0+8801bd8
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.854918338Z"
+    created: "2023-03-31T13:33:44.740268162Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -120,7 +130,21 @@ entries:
     version: 0.1.0+a9e28e6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.864519892Z"
+    created: "2023-03-31T13:33:44.750323627Z"
+    dependencies:
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.x.x
+    description: A Helm chart for Kubernetes
+    digest: 7c7077656a89df186f743a8aa5fd094a8f3c7ccfba919f91bacd208ed5022a5f
+    name: authentication-service
+    type: application
+    urls:
+    - spinnaker/authentication-service-0.1.0+d45a289.tgz
+    version: 0.1.0+d45a289
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-31T13:33:44.760538396Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -134,7 +158,7 @@ entries:
     version: 0.1.0+ea86865
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.872137835Z"
+    created: "2023-03-31T13:33:44.77398135Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -149,7 +173,7 @@ entries:
   car-service:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.880991284Z"
+    created: "2023-03-31T13:33:44.782869084Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -163,7 +187,7 @@ entries:
     version: 0.1.0+312140c
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.890065135Z"
+    created: "2023-03-31T13:33:44.793660468Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -177,7 +201,7 @@ entries:
     version: 0.1.0+4862555
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.897687378Z"
+    created: "2023-03-31T13:33:44.803190419Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -191,7 +215,7 @@ entries:
     version: 0.1.0+8801bd8
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.908296938Z"
+    created: "2023-03-31T13:33:44.811795546Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -205,7 +229,22 @@ entries:
     version: 0.1.0+a9e28e6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.916479384Z"
+    created: "2023-03-31T13:33:44.821979914Z"
+    dependencies:
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.x.x
+    description: A Helm chart for Kubernetes
+    digest: f5df835bc01fd664c9fb59ea86619ab2f1856d2886673e90efcf8ed605514c15
+    name: car-service
+    type: application
+    urls:
+    - spinnaker/car-service-0.1.0+d45a289.tgz
+    version: 0.1.0+d45a289
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-31T13:33:44.831197357Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -219,7 +258,7 @@ entries:
     version: 0.1.0+ea86865
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.923200222Z"
+    created: "2023-03-31T13:33:44.841398226Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -235,7 +274,7 @@ entries:
   configuration-service:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.923653124Z"
+    created: "2023-03-31T13:33:44.841920639Z"
     description: A Helm chart for Kubernetes
     digest: 48b3bceba7b634a200bfba6cdc1d9d4cbab9bb91d486e903136bfe865ac10329
     name: configuration-service
@@ -245,7 +284,7 @@ entries:
     version: 0.1.0+312140c
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.924083727Z"
+    created: "2023-03-31T13:33:44.842807963Z"
     description: A Helm chart for Kubernetes
     digest: 9c3d6375040b61264d1d1732e8c22acc1dde76149a0825f387d622c74323e00b
     name: configuration-service
@@ -255,7 +294,7 @@ entries:
     version: 0.1.0+4862555
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.924522529Z"
+    created: "2023-03-31T13:33:44.843414179Z"
     description: A Helm chart for Kubernetes
     digest: 4074f5d8bf11efbdb04891596641365592f0d843f0aa1dc79119e87947e50322
     name: configuration-service
@@ -265,7 +304,7 @@ entries:
     version: 0.1.0+8801bd8
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.924939131Z"
+    created: "2023-03-31T13:33:44.844410805Z"
     description: A Helm chart for Kubernetes
     digest: ed931d482e173bfdb25192eb7047f5560b927ecfaba6ff2b9f4cd80f9e263546
     name: configuration-service
@@ -275,7 +314,17 @@ entries:
     version: 0.1.0+a9e28e6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.925741436Z"
+    created: "2023-03-31T13:33:44.845067422Z"
+    description: A Helm chart for Kubernetes
+    digest: f6425ea5fcef00f51b7879bedd0d36199a7216ce3a48aa1089b3562de75da8d0
+    name: configuration-service
+    type: application
+    urls:
+    - spinnaker/configuration-service-0.1.0+d45a289.tgz
+    version: 0.1.0+d45a289
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-31T13:33:44.845984046Z"
     description: A Helm chart for Kubernetes
     digest: fb24ed65380d9f2a71c93f29b53c1770619f65726135aec32f80e486dec150fe
     name: configuration-service
@@ -285,7 +334,7 @@ entries:
     version: 0.1.0+ea86865
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.92649994Z"
+    created: "2023-03-31T13:33:44.846520961Z"
     description: A Helm chart for Kubernetes
     digest: 0956627f76df90b3617101e9ecefa0bf102d66c1f52cf78856e3436edcc782ba
     name: configuration-service
@@ -296,7 +345,7 @@ entries:
   currency-service:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.933976382Z"
+    created: "2023-03-31T13:33:44.856588026Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -310,7 +359,7 @@ entries:
     version: 0.1.0+312140c
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.943939038Z"
+    created: "2023-03-31T13:33:44.86587247Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -324,7 +373,7 @@ entries:
     version: 0.1.0+4862555
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.951885983Z"
+    created: "2023-03-31T13:33:44.876367347Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -338,7 +387,7 @@ entries:
     version: 0.1.0+8801bd8
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.959512326Z"
+    created: "2023-03-31T13:33:44.885715793Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -352,7 +401,22 @@ entries:
     version: 0.1.0+a9e28e6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.968362075Z"
+    created: "2023-03-31T13:33:44.896718183Z"
+    dependencies:
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.x.x
+    description: A Helm chart for Kubernetes
+    digest: 05aeade9883c84efd9509a496557c091306e8040cbc048e9bed17b8cea11a879
+    name: currency-service
+    type: application
+    urls:
+    - spinnaker/currency-service-0.1.0+d45a289.tgz
+    version: 0.1.0+d45a289
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-31T13:33:44.904685093Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -366,7 +430,7 @@ entries:
     version: 0.1.0+ea86865
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.975981018Z"
+    created: "2023-03-31T13:33:44.913990238Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -382,7 +446,7 @@ entries:
   discovery-service:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.976530821Z"
+    created: "2023-03-31T13:33:44.914681856Z"
     description: A Helm chart for Kubernetes
     digest: 31191025e7d4432e48a0839c9d0fb84fe4f0b0741639fc1ec93e40aff18d48e8
     name: discovery-service
@@ -392,7 +456,7 @@ entries:
     version: 0.1.0+312140c
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.977126525Z"
+    created: "2023-03-31T13:33:44.915246771Z"
     description: A Helm chart for Kubernetes
     digest: 3948c3fd8066926edf56304b46b1cda687740565c1038d13af2ea3e983d9bdb3
     name: discovery-service
@@ -402,7 +466,7 @@ entries:
     version: 0.1.0+4862555
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.977703528Z"
+    created: "2023-03-31T13:33:44.915791685Z"
     description: A Helm chart for Kubernetes
     digest: 380cffc488dee05fa9cad66a548a60924bd6a68a51356576650c145f1cc6e882
     name: discovery-service
@@ -412,7 +476,7 @@ entries:
     version: 0.1.0+8801bd8
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.978617433Z"
+    created: "2023-03-31T13:33:44.916334399Z"
     description: A Helm chart for Kubernetes
     digest: 89fc4cf7a5f486c93b29106ad2c5dc50719ff581fc196ef3d338d417b61a5e95
     name: discovery-service
@@ -422,7 +486,17 @@ entries:
     version: 0.1.0+a9e28e6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.979374937Z"
+    created: "2023-03-31T13:33:44.916926315Z"
+    description: A Helm chart for Kubernetes
+    digest: 897a1e026ef589613ff40123cc9c97b240c61e4283c6ebbbfd5ba80ec9b026e5
+    name: discovery-service
+    type: application
+    urls:
+    - spinnaker/discovery-service-0.1.0+d45a289.tgz
+    version: 0.1.0+d45a289
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-31T13:33:44.91750483Z"
     description: A Helm chart for Kubernetes
     digest: 34e72db7b2b9b2cef76f101d278b73473fa0b0b6967603258890c0d36dd83d7b
     name: discovery-service
@@ -432,7 +506,7 @@ entries:
     version: 0.1.0+ea86865
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.980114441Z"
+    created: "2023-03-31T13:33:44.918057345Z"
     description: A Helm chart for Kubernetes
     digest: af4004def7b9c79fc8980f56914373f58b54053dcef0c6e79655f4523aab67b1
     name: discovery-service
@@ -443,7 +517,7 @@ entries:
   frontend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.980744945Z"
+    created: "2023-03-31T13:33:44.918558958Z"
     description: The frontend for car-rental application
     digest: 602210e6cd70f2ccd843b52a075056598608ef938f8a78f1444aa12fa1939bba
     name: frontend
@@ -453,7 +527,7 @@ entries:
     version: 0.0.1+312140c
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.981140747Z"
+    created: "2023-03-31T13:33:44.918971369Z"
     description: The frontend for car-rental application
     digest: 984d6bf7318449d746916f69693ea980788aa2a253e5977211ca4911a692db86
     name: frontend
@@ -463,7 +537,7 @@ entries:
     version: 0.0.1+4862555
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.98162155Z"
+    created: "2023-03-31T13:33:44.919418581Z"
     description: The frontend for car-rental application
     digest: dfaa037559cc198db719edc7d0a2d62c794e6d0ab1b912cbaccc1eacd30fdb13
     name: frontend
@@ -473,7 +547,7 @@ entries:
     version: 0.0.1+8801bd8
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.982047352Z"
+    created: "2023-03-31T13:33:44.919851792Z"
     description: The frontend for car-rental application
     digest: c15be05ef91f0bc0ee2ce2a908fede87ec23b7a6e8982e04d6054668c7f5f04e
     name: frontend
@@ -483,7 +557,17 @@ entries:
     version: 0.0.1+a9e28e6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.982435454Z"
+    created: "2023-03-31T13:33:44.920331805Z"
+    description: The frontend for car-rental application
+    digest: 07dca61ba8e2f3494b0e056f84b15aea2c3a446c95692707c5bc2adc8f47d84a
+    name: frontend
+    type: application
+    urls:
+    - spinnaker/frontend-0.0.1+d45a289.tgz
+    version: 0.0.1+d45a289
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-31T13:33:44.920763316Z"
     description: The frontend for car-rental application
     digest: dfbcacaf6c87fdd33ff04f0c7646bea0d309066cf594f92bb2cb7fc1dece1ab2
     name: frontend
@@ -493,7 +577,7 @@ entries:
     version: 0.0.1+ea86865
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.982853257Z"
+    created: "2023-03-31T13:33:44.921232328Z"
     description: The frontend for car-rental application
     digest: 39e8e7c87100f5c3b64601f65c78f9cf415e58b148fc9769ff90631e6b4261af
     name: frontend
@@ -504,7 +588,7 @@ entries:
   location-service:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.990939102Z"
+    created: "2023-03-31T13:33:44.93002606Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -518,7 +602,7 @@ entries:
     version: 0.1.0+312140c
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:07.999246549Z"
+    created: "2023-03-31T13:33:44.938818992Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -532,7 +616,7 @@ entries:
     version: 0.1.0+4862555
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:08.0083595Z"
+    created: "2023-03-31T13:33:44.949336469Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -546,7 +630,7 @@ entries:
     version: 0.1.0+8801bd8
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:08.01551344Z"
+    created: "2023-03-31T13:33:44.958800418Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -560,7 +644,22 @@ entries:
     version: 0.1.0+a9e28e6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:08.023887187Z"
+    created: "2023-03-31T13:33:44.966528922Z"
+    dependencies:
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.x.x
+    description: A Helm chart for Kubernetes
+    digest: e43da6a06870a4c0259876bb6df182dea451f32724f3855de778b67b17bb61c0
+    name: location-service
+    type: application
+    urls:
+    - spinnaker/location-service-0.1.0+d45a289.tgz
+    version: 0.1.0+d45a289
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-31T13:33:44.976755491Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -574,7 +673,7 @@ entries:
     version: 0.1.0+ea86865
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:08.03154393Z"
+    created: "2023-03-31T13:33:44.985342517Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -590,7 +689,7 @@ entries:
   opening-hours-service:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:08.040025278Z"
+    created: "2023-03-31T13:33:44.993708138Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -604,7 +703,7 @@ entries:
     version: 0.1.0+312140c
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:08.04758932Z"
+    created: "2023-03-31T13:33:45.001873753Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -618,7 +717,7 @@ entries:
     version: 0.1.0+4862555
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:08.055961168Z"
+    created: "2023-03-31T13:33:45.010684285Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -632,7 +731,7 @@ entries:
     version: 0.1.0+8801bd8
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:08.06344841Z"
+    created: "2023-03-31T13:33:45.019933928Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -646,7 +745,21 @@ entries:
     version: 0.1.0+a9e28e6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:08.073431966Z"
+    created: "2023-03-31T13:33:45.027566529Z"
+    dependencies:
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.x.x
+    description: A Helm chart for Kubernetes
+    digest: 12d68af8e11d3f16f0f5a33c66781de15789d94541f4864814f1da3dff641bfe
+    name: opening-hours-service
+    type: application
+    urls:
+    - spinnaker/opening-hours-service-0.1.0+d45a289.tgz
+    version: 0.1.0+d45a289
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-31T13:33:45.038855627Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -660,7 +773,7 @@ entries:
     version: 0.1.0+ea86865
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:08.082301116Z"
+    created: "2023-03-31T13:33:45.046673133Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -675,7 +788,7 @@ entries:
   order-service:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:08.089489256Z"
+    created: "2023-03-31T13:33:45.058169935Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -689,7 +802,7 @@ entries:
     version: 0.1.0+312140c
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:08.097740902Z"
+    created: "2023-03-31T13:33:45.066336851Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -703,7 +816,7 @@ entries:
     version: 0.1.0+4862555
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:08.104798042Z"
+    created: "2023-03-31T13:33:45.076057307Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -717,7 +830,7 @@ entries:
     version: 0.1.0+8801bd8
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:08.113737892Z"
+    created: "2023-03-31T13:33:45.086681986Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -731,7 +844,22 @@ entries:
     version: 0.1.0+a9e28e6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:08.122740543Z"
+    created: "2023-03-31T13:33:45.094614295Z"
+    dependencies:
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.x.x
+    description: A Helm chart for Kubernetes
+    digest: 235e8fcf32ed2c2c9072fa55ca1011f68363e2864d7921d37e95edb8cdb898a2
+    name: order-service
+    type: application
+    urls:
+    - spinnaker/order-service-0.1.0+d45a289.tgz
+    version: 0.1.0+d45a289
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-31T13:33:45.10426905Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -745,7 +873,7 @@ entries:
     version: 0.1.0+ea86865
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-21T16:17:08.130472586Z"
+    created: "2023-03-31T13:33:45.112900577Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -758,4 +886,4 @@ entries:
     urls:
     - spinnaker/order-service-0.1.0+ea94fd7.tgz
     version: 0.1.0+ea94fd7
-generated: "2023-03-21T16:17:07.812717401Z"
+generated: "2023-03-31T13:33:44.69578219Z"
